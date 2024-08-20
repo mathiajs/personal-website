@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "Teaching Assistant",
     location: "Trondheim, Norway",
     description: 
-      "I worked as a teaching assistant for the course TDT4100 at NTNU. I was in the group that planned the exercises in the course, and was responsible for flisjflijejfiafmdlkasjfoiejf",
+      "I worked as a teaching assistant for the course TDT4100 at NTNU. I was responsible for designing and overseeing realistic mock exams for one of Norway’s largest courses, ensuring assessment accuracy and relevance.",
     icon: React.createElement(GiTeacher),
     date: "2024-present",
   },

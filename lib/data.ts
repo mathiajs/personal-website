@@ -36,18 +36,25 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Research Assistant",
+    location: "Trondheim, Norway",
+    description: "I'm working as a research assistant in the course tdt4100 at NTNU. My job involves holding lectures and being involved with the daily operation of the course",
+    icon: React.createElement(GiTeacher),
+    date: "2025-present",
+  },
+  {
     title: "Teaching Assistant",
     location: "Trondheim, Norway",
     description: 
-      "I worked as a teaching assistant for the course TDT4100 at NTNU. I was responsible for designing and overseeing realistic mock exams for one of Norway’s largest courses, ensuring assessment accuracy and relevance.",
+      "I worked as a teaching assistant for the course TDT4109 at NTNU. I was responsible for designing and overseeing realistic mock exams for one of Norway’s largest courses, ensuring assessment accuracy and relevance.",
     icon: React.createElement(GiTeacher),
-    date: "2024-present",
+    date: "2024-2024",
   },
   {
     title: "Learning Assistant",
     location: "Trondheim, Norway",
     description: 
-      "I worked as a learning assistant for the courses TDT4109 and TDT4110 at NTNU. I helped students with their assignments and approved/disproved their assignments.",
+      "I worked as a learning assistant for the courses TDT4109 and TDT4100 at NTNU. I helped students with their assignments and approved/disproved their assignments.",
     icon: React.createElement(PiStudentBold),
     date: "2023-2024",
   },

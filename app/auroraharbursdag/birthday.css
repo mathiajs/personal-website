@@ -1,0 +1,143 @@
+.birthday-container-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ffe6f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  z-index: 9999;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.birthday-container-fullscreen h1 {
+  font-size: clamp(1.8rem, 5vw, 3rem); /* min, viewport, max */
+  color: #d63384;
+  margin-bottom: 1rem;
+}
+
+.birthday-container-fullscreen p,
+.gifts-list li,
+.password-text {
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.present-button-container {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.present-button-container button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+}
+
+.present-button-container button:hover {
+  background-color: #e055a3;
+}
+
+.gifts-list {
+  margin-top: 1rem;
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: #333;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.birthday-container-fullscreen p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.birthday-container-fullscreen ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 1rem auto 1rem auto;
+  text-align: left;
+}
+
+.birthday-container-fullscreen li {
+  font-size: .9rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.password-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.password-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.password-box input {
+  color: #555;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid #d63384;
+}
+
+.password-box button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #d63384;
+  color: white;
+  cursor: pointer;
+}
+
+.password-box button:hover {
+  background-color: #b12e6a;
+}
+
+.hearts-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.heart {
+  position: absolute;
+  bottom: -50px;
+  animation-name: floatUp;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-110vh) rotate(360deg);
+    opacity: 0;
+  }
+}

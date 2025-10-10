@@ -123,4 +123,10 @@ export const skillsData = [
   "Python",
   "Java",
   "Firebase",
+  ".NET",
+  "C#",
+  "Docker",
+  "Django",
+  "Kubernetes",
+  "Vue.js",
 ] as const;
